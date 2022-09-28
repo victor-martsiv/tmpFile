@@ -1,0 +1,31 @@
+{
+  "name" : "victor-martsiv/tmp",
+  "description" : "Tmp file handler",
+  "type" : "project",
+  "license" : "MIT",
+  "autoload" : {
+    "psr-4" : {
+      "KnightWithKnife\\Tmp\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "KnightWithKnife\\Tmp\\Test\\" : "tests/"
+    }
+  },
+  "authors" : [
+    {
+      "name" : "viktor-martsiv",
+      "email" : "martsivwork@gmail.com"
+    }
+  ],
+  "minimum-stability" : "dev",
+  "require" : {
+    "php" : ">=8.1"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "10.0.x-dev",
+    "symfony/process": "6.2.x-dev",
+    "fzaninotto/faker": "1.9.x-dev"
+  }
+}
