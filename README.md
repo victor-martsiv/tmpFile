@@ -3,7 +3,7 @@
 ### Simple lib for work with tmp file. 
 
 ## Example
-```  
+```php
 $filePath = 'some/file/path';
 $tmpHandler = new \KnightWithKnife\Tmp\File($filePath);
 $tmpHandler->write($testData);
